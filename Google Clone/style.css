@@ -1,0 +1,47 @@
+
+body{
+   background-image: url("img/valley.jpg");
+}
+
+.main {
+    margin-top: 100px;
+}
+
+.images {
+    display: block;
+    width: 400px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.inp {
+    display: block;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-color: #dfe1e5;
+    border-radius: 24px;
+}
+.btn{
+  display: block;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 9px;
+  background-color: #e3e3e3;
+  border-color: #dfe1e5;
+  border: none;
+}
+
+.btn-wrapper{
+  display: flex;
+  justify-content: center;
+}
