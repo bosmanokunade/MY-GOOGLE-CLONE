@@ -1,0 +1,125 @@
+body{
+    color: black;
+    font-family: HappyMonkey-Regular;
+    text-align: center;
+    background-color: white;
+    background: linear-gradient(grey, pink);
+}
+
+#image{
+    width: 200px;
+    border-radius: 100px;
+    border: 5px solid #EFB0C9;
+}
+
+
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+@font-face {
+    font-family: HappyMonkey-Regular;
+    src: url("../HappyMonkey-Regular.ttf");
+}
+h1, h2, h3, p, h4{
+    text-shadow: 0px 0px 2px green;
+}
+
+#bday-age {
+    background: #EFB0C9;
+    padding: 5px 12px 5px 12px;
+    border-radius: 6px;
+    
+}
+#bday-date{
+    background: #EFB0C9;
+    padding: 5px 12px 5px 12px;
+    border-radius: 6px;
+    margin-top: 0;
+}
+
+.gift-img{
+    width: 400px;
+    border: 3px solid black;
+    border-radius: 4px;
+    background-image: url("../images/giftbox.jpg"); 
+    height: 400px;
+    margin: 0 auto 0 auto;
+}
+
+.gift-section{
+    margin-top: 40px;
+    
+}
+.happy-comment{
+    margin-bottom: 0px;
+}
+.hover-comment{
+    margin-top: 0px;
+}
+
+.gift-img:hover{
+    background-image: url("../images/happy-birthday.webp");
+}
+
+.second-gift-img{
+    width: 400px;
+    border: 3px solid black;
+    border-radius: 4px;
+    background-image: url("../images/giftbox.jpg"); 
+    height: 400px;
+    margin: 0 auto 0 auto;
+}
+
+.second-gift-img:hover{
+    background-image: url("../images/shock-surprise.webp");
+}
+
+.third-gift-img{
+    width: 400px;
+    border: 3px solid black;
+    border-radius: 4px;
+    background-image: url("../images/giftbox.jpg"); 
+    height: 400px;
+    margin: 0 auto 0 auto;
+}
+
+.third-gift-img:hover{
+    background-image: url("../images/blessing.webp");
+}
+
+.fourth-gift-img{
+    width: 400px;
+    border: 3px solid black;
+    border-radius: 4px;
+    background-image: url("../images/giftbox.jpg"); 
+    height: 400px;
+    margin: 0 auto 0 auto;
+}
+
+.fourth-gift-img:hover{
+    background-image: url("../images/loveyou.webp");
+}
+
+.fifth-gift-img{
+    width: 400px;
+    border: 3px solid black;
+    border-radius: 4px;
+    background-image: url("../images/giftbox.jpg"); 
+    height: 400px;
+    margin: 0 auto 0 auto;
+}
+
+.fifth-gift-img:hover{
+    background-image: url("../images/cheers2.webp");
+}
+
+#footer{
+    padding-top: 10px;
+    padding-bottom: 25px;
+    font-style: italic;
+    width: 400px;
+    margin: 0 auto 0 auto;
+}
